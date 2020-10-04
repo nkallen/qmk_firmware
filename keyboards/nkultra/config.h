@@ -10,12 +10,12 @@
 #define PRODUCT         nkultra
 #define DESCRIPTION     A spacemouse macropad
 /* key matrix size */
-#define MATRIX_ROWS 5
-#define MATRIX_COLS 7
+#define MATRIX_ROWS 7
+#define MATRIX_COLS 8
 
 /* key matrix pins */
-#define MATRIX_ROW_PINS { B7, F0, F4, B6, D7 }
-#define MATRIX_COL_PINS { D4, D6, B4, B5, C6, C7, D5 }
+#define MATRIX_ROW_PINS { F5, B2, F0, B3, F4, D6, D4 }
+#define MATRIX_COL_PINS { B6, B5, B4, D7, B1, C6, B0, B7 }
 #define UNUSED_PINS
 
 /* COL2ROW or ROW2COL */
@@ -36,7 +36,7 @@
 
 #define RGBLED_NUM 0
 
-#define ENCODERS_PAD_A { F7 }
-#define ENCODERS_PAD_B { F6 }
+#define ENCODERS_PAD_A { D3 }
+#define ENCODERS_PAD_B { D5 }
 
 #define ENCODER_RESOLUTION 2

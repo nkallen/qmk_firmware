@@ -30,32 +30,32 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 	[_BASE] = LAYOUT(
 		KC_ESC, KC_1, KC_2, KC_3, KC_COMMA, KC_DOT, KC_O,\
-		KC_TAB, KC_Q, KC_B, KC_E, KC_I, KC_K,\
-		MO(1), KC_A, KC_S, KC_R, KC_G, KC_KP_5,\
+		KC_TAB, KC_Q, KC_B, KC_E, KC_I, KC_K, KC_KP_5,\
+		MO(1), KC_A, KC_S, KC_R, KC_G,\
 		LM(3, MOD_LSFT), KC_Z, KC_X, KC_Y,\
 		KC_CAPSLOCK, KC_LALT, LM(2, MOD_LGUI)\
 	),
 
     [_FN1] = LAYOUT(
 		_______, NINETY, ONEHUNDREDEIGHTY, KC_KP_ASTERISK, KC_T, KC_N, _______,\
-		_______, KC_P, KC_W, KC_KP_9, KC_KP_MINUS, _______,\
-		_______, KC_H, KC_KP_5, KC_J, KC_F, KC_KP_ENTER,\
+		_______, KC_P, KC_W, KC_KP_9, KC_KP_MINUS, KC_KP_ENTER, _______,\
+		_______, KC_H, KC_KP_5, KC_J, KC_F,\
 		_______, KC_M, KC_KP_2, KC_C,\
 		_______, KC_KP_DOT, KC_KP_0\
 	),
 
 	[_FN2] = LAYOUT(
 		_______, _______, _______, _______, _______, _______, _______,\
-		KC_TAB, KC_Q, KC_W, _______, _______, _______,\
-		_______, _______, KC_S, _______, _______, _______,\
+		KC_TAB, KC_Q, KC_W, _______, _______, _______, _______,\
+		_______, _______, KC_S, _______, _______,\
 		_______, KC_Z, _______, _______,\
 		_______, _______, _______\
 	),
 
 	[_FN3] = LAYOUT(
 		_______, _______, _______, _______, _______, _______, _______,\
-		_______, _______, _______, _______, _______, _______,\
-		_______, _______, _______, KC_D, _______, _______,\
+		_______, _______, _______, _______, _______, _______, _______,\
+		_______, _______, _______, KC_D, _______,\
 		_______, _______, _______, _______,\
 		_______, _______, _______\
 	)
